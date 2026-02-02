@@ -86,7 +86,7 @@ function App() {
 
       
       <div className="display">{display}</div>
-<div className="description">This is the calculator app</div>
+<div className="description">This is the calculator app open by yogesh</div>
       <div className="buttons">
         
         <button className="btn btn-clear" onClick={handleClear}>C</button>
