@@ -98,3 +98,9 @@ body {
 .btn-special:hover {
   background: #666;
 }
+.description {
+  color: #ccc;
+  font-size: 1rem;
+  text-align: center;
+  padding: 10px 0;
+}

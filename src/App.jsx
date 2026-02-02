@@ -83,9 +83,12 @@ function App() {
 
   return (
     <div className="calculator">
-      <div className="display">{display}</div>
 
+      
+      <div className="display">{display}</div>
+<div className="description">This is the calculator app</div>
       <div className="buttons">
+        
         <button className="btn btn-clear" onClick={handleClear}>C</button>
         <button className="btn btn-special" onClick={handleToggleSign}>+/-</button>
         <button className="btn btn-operator" onClick={() => handleOperator('/')}>÷</button>
